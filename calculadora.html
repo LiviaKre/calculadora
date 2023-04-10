@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="calculadora.js"></script>
+    <title>Calculadora Javascript</title>
+  </head>
+  <body>
+    <div class="container">
+        <p>
+          Calculadora Javascript
+        </p>
+        <div class="calculator">
+          <div id="display">0</div>
+          <div class="keys">
+            <button onclick="adicionarValor(this)">+</button>
+            <button onclick="adicionarValor(this)">-</button>
+            <button onclick="adicionarValor(this)">x</button>
+            <button onclick="adicionarValor(this)">/</button>
+            <button onclick="adicionarValor(this)">7</button>
+            <button onclick="adicionarValor(this)">8</button>
+            <button onclick="adicionarValor(this)">9</button>
+            <button onclick="adicionarValor(this)">4</button>
+            <button onclick="adicionarValor(this)">5</button>
+            <button onclick="adicionarValor(this)">6</button>
+            <button onclick="adicionarValor(this)">1</button>
+            <button onclick="adicionarValor(this)">2</button>
+            <button onclick="adicionarValor(this)">3</button>
+            <button onclick="adicionarValor(this)">0</button>
+            <button onclick="adicionarValor(this)">.</button>
+            <button onclick="limpar()">CL</button>
+            <button class="key--equal" onclick="calcular()">=</button>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
